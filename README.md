@@ -1,7 +1,5 @@
 <pre>
 # CYD-Thermostat
-
-
 //****************************************************************************************
 //  I hope you find this code helpful. 
 //
@@ -45,7 +43,7 @@
 //        disabled.
 //
 //  Regards and Good Luck,
-//  Roger Yacobucci (JustRoger)
+//  Roger Yacobucci (JustRoger1956)
 //  April 30, 2025
 //****************************************************************************************
 //-------------------------------------Revision History-----------------------------------
@@ -53,6 +51,9 @@
 // 1.0.0 - 04/27/2025 Initial Release
 //
 // 1.0.1 - 04/30/2025 Some code clean up: no functional changes.
+//
+// 1.0.2 - 05/07/2025 Bug fixes to the loop routine for getting time and weather.
+//                    Added ability to display either a 12 hour or 24 hour clock.
 //
 //----------------------------------------------------------------------------------------
 </pre>
