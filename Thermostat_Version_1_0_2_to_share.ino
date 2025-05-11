@@ -1564,8 +1564,8 @@ static void timer_cb(lv_timer_t * timer){
 
   //If its time to sync set the flags
   if (second % sync_intrvl_BME  == 0) sync_BME280_sensor = true;
-  if (minute % sync_intrvl_CSU  == 0) sync_weather       = true;
-  if (minute % sync_intrvl_time == 0) sync_time_date     = true;
+  if (((minute *60) + second) % (sync_intrvl_CSU  * 60) == 0) sync_weather   = true;
+  if (((minute *60) + second) % (sync_intrvl_time * 60) == 0) sync_time_date = true;
 
   //**************************************************************************
   // Update the auxiliary string variables that are used to display the time.
