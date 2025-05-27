@@ -25,10 +25,13 @@
 //  Follow one of the Random Nerd Tutorials for the cheap yellow display (CYD).  It will
 //  instruct you how to install the initial libraries and setups files.  In addition:
 //    (a) Search for credentials and input your network WiFi credentials.
-//    (b) Go to the Tools tab to select board ESP32-2432S028R CYD
-//    (c) On the Tools tab also select Partition Scheme Huge APPC3MB No OTA/1MB SPIFFS.
-//    (d) The program takes a long time to compile and load; be patient.
-//    (e) At some time you will want to update the Time Zone and Weather Station
+//    (b) Go to the Tools tab to select board ESP32-2432S028R CYD; its almost at the end
+//        of the list.
+//    (c) Go to tools -> board -> boards manager and use ESP32 verions 3.0.7 version by 
+//        Epressif Systems.  Later versions may not work.
+//    (d) On the Tools tab also select Partition Scheme Huge APPC3MB No OTA/1MB SPIFFS.
+//    (e) The program takes a long time to compile and load; be patient.
+//    (f) At some time you will want to update the Time Zone and Weather Station
 //        WEB pages for your specific needs; however I suggest doing that after the 
 //        initial load.
 //
