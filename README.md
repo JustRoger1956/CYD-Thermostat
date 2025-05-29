@@ -47,7 +47,7 @@
 //
 //  Regards and Good Luck,
 //  Roger Yacobucci (JustRoger1956)
-//  April 30, 2025
+//  May 29, 2025
 //****************************************************************************************
 //-------------------------------------Revision History-----------------------------------
 //
@@ -57,6 +57,8 @@
 //
 // 1.0.2 - 05/07/2025 Bug fixes to the loop routine for getting time and weather.
 //                    Added ability to display either a 12 hour or 24 hour clock.
+//
+// 1.0.3 - 05/29/2025 Added a screen saver.
 //
 //----------------------------------------------------------------------------------------
 </pre>
