@@ -60,5 +60,9 @@
 //
 // 1.0.3 - 05/29/2025 Added a screen saver.
 //
+// 1.0.4 - 06-06-2025 - Compiling with ESP32 version 3.2.0 instead of version 3.0.7 now 
+//                      appears to work.  Not sure why.
+//
+// 1.0.5 - 07-08-2025 - Updated screen saver code.
 //----------------------------------------------------------------------------------------
 </pre>
